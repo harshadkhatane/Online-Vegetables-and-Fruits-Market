@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+
+nav{
+    background-color: blue;
+    text-align: center;
+}
+nav a{
+    color:white !important;
+    padding:10px;
+    width:140px;
+    text-decoration: none !important; 
+    display:inline-block;
+    text-align: center;
+}
+nav a:hover{
+    background-color: red;
+}
+

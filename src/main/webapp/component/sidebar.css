@@ -1,0 +1,45 @@
+.sidebar-title{
+	letter-spacing: 0.1em;
+	color: #aaa;
+}
+
+body{
+	background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+	
+	min-height: 100vh;	
+}
+
+.vertical-nav{
+	min-width: 17rem;
+	width: 17rem;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transition:all 0.4s;
+}
+
+.page-content{
+	width: calc(100%-17rem);
+	margin-left: 17rem;
+	transition:all 0.4s;
+}
+
+#content.active{
+	width: 100%;
+	margin: 0;
+}
+
+#sidebar.active{
+	margin-left: -17rem;
+}
+
+.nav-link{
+	font-weight : bold;
+}
+
+.fa-power-off{
+	color: red;
+}
